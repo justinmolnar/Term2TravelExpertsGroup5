@@ -1,3 +1,6 @@
+ALTER TABLE Customers
+  ADD CustPassword VARCHAR(20) NOT NULL DEFAULT('password123')
+
 ALTER TABLE Products_Suppliers
 DROP CONSTRAINT Products_Suppliers_FK00;
 
